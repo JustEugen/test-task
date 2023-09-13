@@ -2,6 +2,8 @@
 
 Unfortunately, due to time limitation I was not able to finish everything on a frontend side, but I was trying to make as much as possible.
 
+I have made additional feature: Authorization using JWT. Current implementation using local storage on clint side and use only access token, without refresh one. This is not the secure way, if I had more time, it would be done by using by storing access token under HTTP only cookies and using refresh token.
+
 ## Backend
 
 ### Setup
