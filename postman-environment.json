@@ -1,0 +1,21 @@
+{
+	"id": "1abf4680-ad13-4849-bd07-85104e93a711",
+	"name": "Local",
+	"values": [
+		{
+			"key": "SERVER_URL",
+			"value": "http://localhost:3020/",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "TOKEN",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2023-09-13T23:17:43.676Z",
+	"_postman_exported_using": "Postman/10.17.4"
+}

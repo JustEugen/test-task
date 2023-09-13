@@ -23,6 +23,15 @@ export const HomePage = () => {
 
   return (
     <Container maxW={"1024"} position={"relative"} minHeight={"100vh"}>
+      <Button
+        onClick={() => {
+          localStorage.removeItem("token");
+          // Using full reload on purpose to clear all possible memory data
+          window.location.href = "/auth/login";
+        }}
+      >
+        Log out
+      </Button>
       <Fade in={tasksData.loading}>
         <Box position={"absolute"} top={"50%"} left={"50%"} transform={"translate(-50%, -50%)"} zIndex={10}>
           <Spinner thickness="4px" speed="0.65s" emptyColor="gray.200" color="blue.500" size="xl" />
