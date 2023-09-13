@@ -1,0 +1,68 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.19",
+    "@chakra-ui/react": "^2.4.8",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^28.1.8",
+    "@types/node": "^12.20.55",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "axios": "^1.2.2",
+    "colorthief": "^2.4.0",
+    "dom-to-image": "^2.6.0",
+    "formik": "^2.2.9",
+    "framer-motion": "^6.5.1",
+    "html-to-image": "^1.11.11",
+    "ramda": "^0.29.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-icons": "^3.11.0",
+    "react-router-dom": "^6.6.2",
+    "react-scripts": "5.0.1",
+    "rooks": "^7.4.3",
+    "sweet-path": "^2.0.11",
+    "typescript": "^4.9.4",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.2.0"
+  },
+  "scripts": {
+    "start": "cross-env PORT=3021 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "@types/ramda": "^0.29.2",
+    "@types/uuid": "^9.0.2",
+    "cross-env": "^7.0.3",
+    "prettier": "2.8.3"
+  },
+  "proxy": "http://localhost:3020",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
